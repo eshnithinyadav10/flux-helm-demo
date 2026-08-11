@@ -12,3 +12,5 @@ spec:
         kind: HelmRepository
         name: podinfo
         namespace: default
+  values:
+    replicaCount: 2
